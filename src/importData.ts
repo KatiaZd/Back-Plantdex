@@ -3,18 +3,32 @@ import * as fs from "fs";
 import * as path from "path";
 import * as dotenv from "dotenv";
 
-dotenv.config();
+// Chemin vers le fichier
+const envPath = path.resolve(__dirname, "../.env.local");
+console.log(`Loading environment variables from ${envPath}`);
+
+const result = dotenv.config({ path: envPath });
+
+if (result.error) {
+  console.error("Error loading .env file", result.error);
+  throw result.error;
+}
+
+console.log(result.parsed); // Affiche les variables chargées
+
 
 console.log("DB_USER:", process.env.DB_USER);
 console.log("DB_PASSWORD:", process.env.DB_PASSWORD);
 
+// Utilise les variables d'environnement correctement dans la configuration de la bdd
 const pool = new Pool({
-  user: "postgres",
-  host: "localhost",
-  database: "plantdex",
-  password: "root",
-  port: 5432,
+  user: process.env.DB_USER,
+  host: process.env.DB_HOST,
+  database: process.env.DB_NAME,
+  password: process.env.DB_PASSWORD,
+  port: parseInt(process.env.DB_PORT || "5432", 10),
 });
+
 
 const checkConnection = async () => {
   try {
