@@ -1,0 +1,331 @@
+{
+	"info": {
+		"_postman_id": "996f88c1-f01b-4b41-b8ab-a796cff9d715",
+		"name": "PlantdexNew",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "33635542"
+	},
+	"item": [
+		{
+			"name": "Get All Plants",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/api/plants"
+			},
+			"response": [
+				{
+					"name": "Get All Plants",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/plants"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "27244"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"6a6c-7K/eU/aEy2uHKQ1Un0pBuOW/cgg\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 28 May 2024 12:40:22 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"OK\",\n    \"data\": [\n        {\n            \"id\": 952438,\n            \"nom\": \"Anthurium, pot D12cm\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes fleuries\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0952000/952438_003.jpg\"\n        },\n        {\n            \"id\": 77390,\n            \"nom\": \"Anthurium: Pot 17cm petit modèle - Coloris variables\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes fleuries\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0077000/77390_010.jpg\"\n        },\n        {\n            \"id\": 801427,\n            \"nom\": \"Strelitzia Nicolai : D.21-H.75\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes fleuries\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0801000/801427_001.jpg\"\n        },\n        {\n            \"id\": 910744,\n            \"nom\": \"Spathiphyllum 'Sweet Lauretta' Pot déco foncé D24cm\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes fleuries\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0910000/910744_001.jpg\"\n        },\n        {\n            \"id\": 910743,\n            \"nom\": \"Spathiphyllum 'Sweet Lauretta' Pot déco clair D24cm\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes fleuries\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0910000/910743_001.jpg\"\n        },\n        {\n            \"id\": 63158,\n            \"nom\": \"Spathiphyllum: d.14cm, pot grand modèle\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes fleuries\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0063000/63158_005.jpg\"\n        },\n        {\n            \"id\": 910674,\n            \"nom\": \"Spathiphyllum 'Sweet Lauretta' pot D24cm\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes fleuries\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0910000/910674_001.jpg\"\n        },\n        {\n            \"id\": 801429,\n            \"nom\": \"Strelitzia Nicolai Cache-pot Anthracite: D.21-H.75\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes fleuries\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0801000/801429_001.jpg\"\n        },\n        {\n            \"id\": 801428,\n            \"nom\": \"Strelitzia Nicolai Cache-pot Blanc : D.21-H.75\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes fleuries\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0801000/801428_001.jpg\"\n        },\n        {\n            \"id\": 832922,\n            \"nom\": \"Spathiphyllum 'Sweet Lauretta' cache-pot blanc D21cm\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes fleuries\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0832000/832922_001.jpg\"\n        },\n        {\n            \"id\": 832920,\n            \"nom\": \"Spathiphyllum 'Sweet Lauretta' pot D21 x H85cm\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes fleuries\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0832000/832920_001.jpg\"\n        },\n        {\n            \"id\": 832828,\n            \"nom\": \"Spathiphyllum Bingo Cupido cache-pot gris D17cm\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes fleuries\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0832000/832828_001.jpg\"\n        },\n        {\n            \"id\": 1023071,\n            \"nom\": \"Tillandsias 'Filles de l'air' - H.5-10 cm - Lot de 6\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes fleuries\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/1023000/1023071_001.jpg\"\n        },\n        {\n            \"id\": 1029001,\n            \"nom\": \"Oiseau de Paradis Strelitzia - pot 21cm - H.100-120cm\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes fleuries\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/1029000/1029001_002.jpg\"\n        },\n        {\n            \"id\": 871531,\n            \"nom\": \"Amaryllis, mix D17cm\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes fleuries\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0871000/871531_002.jpg\"\n        },\n        {\n            \"id\": 566494,\n            \"nom\": \"Amaryllis Ti sento mix d14\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes fleuries\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0566000/566494_001.jpg\"\n        },\n        {\n            \"id\": 121550,\n            \"nom\": \"Kalanchoe : 10,5cm, pot - Coloris variables\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes fleuries\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0121000/121550_011.jpg\"\n        },\n        {\n            \"id\": 261303,\n            \"nom\": \"Orchidée Phalaeonopsis 2 tiges - pot D.12 cm\",\n            \"soleil\": \"peu\",\n            \"arrosage\": \"3\",\n            \"categorie\": \"orchidés\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0261000/261303_017.jpg\"\n        },\n        {\n            \"id\": 952439,\n            \"nom\": \"CYMB. 2T D12CM C.POT DOLOMITE-(952439)\",\n            \"soleil\": \"peu\",\n            \"arrosage\": \"3\",\n            \"categorie\": \"orchidés\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0952000/952439_001.jpg\"\n        },\n        {\n            \"id\": 569074,\n            \"nom\": \"Orchidée Phalaeonopsis rose en cascade 2 tiges - pot D.13 cm\",\n            \"soleil\": \"peu\",\n            \"arrosage\": \"3\",\n            \"categorie\": \"orchidés\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0569000/569074_001.jpg\"\n        },\n        {\n            \"id\": 482795,\n            \"nom\": \"Orchidée Phalaeonopsis en arceau 2 tiges - pot D.12 cm\",\n            \"soleil\": \"peu\",\n            \"arrosage\": \"3\",\n            \"categorie\": \"orchidés\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0482000/482795_012.jpg\"\n        },\n        {\n            \"id\": 312849,\n            \"nom\": \"Orchidée Phalaeonopsis 1 tige - pot D.6 cm\",\n            \"soleil\": \"peu\",\n            \"arrosage\": \"3\",\n            \"categorie\": \"orchidés\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0312000/312849_001.jpg\"\n        },\n        {\n            \"id\": 588902,\n            \"nom\": \"Orchidée Phalaeonopsis 'Kolibri'2 tiges - pot D.9 cm\",\n            \"soleil\": \"peu\",\n            \"arrosage\": \"3\",\n            \"categorie\": \"orchidés\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0588000/588902_002.jpg\"\n        },\n        {\n            \"id\": 67544,\n            \"nom\": \"Orchidée Dendrobium nobilé 1 tige - pot D.12 cm\",\n            \"soleil\": \"peu\",\n            \"arrosage\": \"3\",\n            \"categorie\": \"orchidés\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0067000/67544_014.jpg\"\n        },\n        {\n            \"id\": 953486,\n            \"nom\": \"Phalaenopsis 'Gold Las Vegas':3 tiges pot D12 cm\",\n            \"soleil\": \"peu\",\n            \"arrosage\": \"3\",\n            \"categorie\": \"orchidés\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0953000/953486_002.jpg\"\n        },\n        {\n            \"id\": 504939,\n            \"nom\": \"Orchidée Phalaeonopsis 'Tsarine' 2 tiges - pot D.15 cm\",\n            \"soleil\": \"peu\",\n            \"arrosage\": \"3\",\n            \"categorie\": \"orchidés\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0504000/504939_001.jpg\"\n        },\n        {\n            \"id\": 750197,\n            \"nom\": \"Orchidée Dendrobium nobilé 2 tiges - pot D.12 cm\",\n            \"soleil\": \"peu\",\n            \"arrosage\": \"3\",\n            \"categorie\": \"orchidés\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0750000/750197_004.jpg\"\n        },\n        {\n            \"id\": 662530,\n            \"nom\": \"Orchidée Cambria 1 tige - pot D.11 cm\",\n            \"soleil\": \"peu\",\n            \"arrosage\": \"3\",\n            \"categorie\": \"orchidés\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0662000/662530_001.jpg\"\n        },\n        {\n            \"id\": 953485,\n            \"nom\": \"Orchidée paphiopedilum leanum : pot D12x H40cm\",\n            \"soleil\": \"peu\",\n            \"arrosage\": \"3\",\n            \"categorie\": \"orchidés\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0953000/953485_002.jpg\"\n        },\n        {\n            \"id\": 504900,\n            \"nom\": \"Orchidée Zygopetalum 1 tige - pot D.12 cm\",\n            \"soleil\": \"peu\",\n            \"arrosage\": \"3\",\n            \"categorie\": \"orchidés\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0504000/504900_004.jpg\"\n        },\n        {\n            \"id\": 827254,\n            \"nom\": \"Orchidée Phalaeonopsis 'White World' 2 tiges - pot D.13 cm\",\n            \"soleil\": \"peu\",\n            \"arrosage\": \"3\",\n            \"categorie\": \"orchidés\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0827000/827254_001.jpg\"\n        },\n        {\n            \"id\": 832797,\n            \"nom\": \"Sansevieria Zeylanica : pot D17 x H60cm\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"0\",\n            \"categorie\": \"cactus et plantes grasses\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0832000/832797_001.jpg\"\n        },\n        {\n            \"id\": 628685,\n            \"nom\": \"Succulentes : Pot d5.5cm - Variétés variables\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"0\",\n            \"categorie\": \"cactus et plantes grasses\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0628000/628685_027.jpg\"\n        },\n        {\n            \"id\": 693107,\n            \"nom\": \"Schlumbergera: Pot D 13 cm\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"0\",\n            \"categorie\": \"cactus et plantes grasses\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0693000/693107_002.jpg\"\n        },\n        {\n            \"id\": 910698,\n            \"nom\": \"Sansevieria Zeylanica : cache- pot D21cm\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"0\",\n            \"categorie\": \"cactus et plantes grasses\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0910000/910698_001.jpg\"\n        },\n        {\n            \"id\": 832856,\n            \"nom\": \"Sansevieria Zeylanica : cache- pot blanc D21cm\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"0\",\n            \"categorie\": \"cactus et plantes grasses\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0832000/832856_001.jpg\"\n        },\n        {\n            \"id\": 670298,\n            \"nom\": \"Succulentes variées : Pot D5.5cm Lot de 20\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"0\",\n            \"categorie\": \"cactus et plantes grasses\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0670000/670298_001.jpg\"\n        },\n        {\n            \"id\": 832813,\n            \"nom\": \"Sanseveria cylindrica : cache-pot gris D17cm\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"0\",\n            \"categorie\": \"cactus et plantes grasses\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0832000/832813_001.jpg\"\n        },\n        {\n            \"id\": 832812,\n            \"nom\": \"Sanseveria cylindrica : D17xH55cm\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"0\",\n            \"categorie\": \"cactus et plantes grasses\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0832000/832812_001.jpg\"\n        },\n        {\n            \"id\": 832854,\n            \"nom\": \"Sansevieria Zeylanica : pot D21 x H70cm\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"0\",\n            \"categorie\": \"cactus et plantes grasses\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0832000/832854_001.jpg\"\n        },\n        {\n            \"id\": 926982,\n            \"nom\": \"Valise découverte des Succulentes\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"0\",\n            \"categorie\": \"cactus et plantes grasses\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0926000/926982_002.jpg\"\n        },\n        {\n            \"id\": 910731,\n            \"nom\": \"Sansevieria Zeylanica : cache- pot sable D17cm\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"0\",\n            \"categorie\": \"cactus et plantes grasses\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0910000/910731_001.jpg\"\n        },\n        {\n            \"id\": 832799,\n            \"nom\": \"Sansevieria Zeylanica : cache- pot blanc D17cm\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"0\",\n            \"categorie\": \"cactus et plantes grasses\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0832000/832799_001.jpg\"\n        },\n        {\n            \"id\": 832798,\n            \"nom\": \"Sansevieria Zeylanica : cache- pot gris D17cm\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"0\",\n            \"categorie\": \"cactus et plantes grasses\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0832000/832798_001.jpg\"\n        },\n        {\n            \"id\": 318568,\n            \"nom\": \"Népenthès : pot 9cm\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"0\",\n            \"categorie\": \"cactus et plantes grasses\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0318000/318568_002.jpg\"\n        },\n        {\n            \"id\": 718750,\n            \"nom\": \"Euphorbe spinanera pot D21cm\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"0\",\n            \"categorie\": \"cactus et plantes grasses\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0718000/718750_001.jpg\"\n        },\n        {\n            \"id\": 128842,\n            \"nom\": \"Cactus de Noël : 11cm, pot\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"0\",\n            \"categorie\": \"cactus et plantes grasses\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0128000/128842_001.jpg\"\n        },\n        {\n            \"id\": 628683,\n            \"nom\": \"Cactus: d8.5cm - Variétés variables\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"0\",\n            \"categorie\": \"cactus et plantes grasses\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0628000/628683_001.jpg\"\n        },\n        {\n            \"id\": 565111,\n            \"nom\": \"Cactus:pot D5,5 cm - Variétés variables\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"0\",\n            \"categorie\": \"cactus et plantes grasses\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0565000/565111_001.jpg\"\n        },\n        {\n            \"id\": 326095,\n            \"nom\": \"Aloès Véra: Plante 15cm pot\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"0\",\n            \"categorie\": \"cactus et plantes grasses\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0326000/326095_009.jpg\"\n        },\n        {\n            \"id\": 462944,\n            \"nom\": \"Aloès Véra : Conteneur de diamètre 12 cm\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"0\",\n            \"categorie\": \"cactus et plantes grasses\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0462000/462944_007.jpg\"\n        },\n        {\n            \"id\": 63228,\n            \"nom\": \"Cactus:pot D7 cm - Variétés variables\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"0\",\n            \"categorie\": \"cactus et plantes grasses\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0063000/63228_006.jpg\"\n        },\n        {\n            \"id\": 85267,\n            \"nom\": \"Attrape-mouches : 7cm, pot\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"0\",\n            \"categorie\": \"cactus et plantes grasses\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0085000/85267_006.jpg\"\n        },\n        {\n            \"id\": 349053,\n            \"nom\": \"Euphorbe : plante 23cm pot\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"0\",\n            \"categorie\": \"cactus et plantes grasses\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0349000/349053_003.jpg\"\n        },\n        {\n            \"id\": 718726,\n            \"nom\": \"Succulentes : Pot d7cm - Variétés variables\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"0\",\n            \"categorie\": \"cactus et plantes grasses\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0718000/718726_009.jpg\"\n        },\n        {\n            \"id\": 30875,\n            \"nom\": \"Sarracénia : plante 8cm pot\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"0\",\n            \"categorie\": \"cactus et plantes grasses\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0030000/30875_003.jpg\"\n        },\n        {\n            \"id\": 832717,\n            \"nom\": \"Bonsaï d'intérieur 5 ans, pot déco orient\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"bonsaïs\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0832000/832717_001.jpg\"\n        },\n        {\n            \"id\": 910626,\n            \"nom\": \"Bonsaï d'extérieur avec soucoupe 7ans\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"bonsaïs\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0910000/910626_001.jpg\"\n        },\n        {\n            \"id\": 832635,\n            \"nom\": \"Bonsaï Buxus 20 ans\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"bonsaïs\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0832000/832635_001.jpg\"\n        },\n        {\n            \"id\": 832728,\n            \"nom\": \"Bonsaï d'intérieur 8 ans, pot déco nature\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"bonsaïs\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0832000/832728_001.jpg\"\n        },\n        {\n            \"id\": 832726,\n            \"nom\": \"Bonsaï d'intérieur 8 ans, pot déco\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"bonsaïs\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0832000/832726_001.jpg\"\n        },\n        {\n            \"id\": 832723,\n            \"nom\": \"Bonsaï d'intérieur 6 ans, pot déco art\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"bonsaïs\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0832000/832723_001.jpg\"\n        },\n        {\n            \"id\": 832721,\n            \"nom\": \"Bonsaï d'intérieur 6 ans, pot déco orient\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"bonsaïs\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0832000/832721_001.jpg\"\n        },\n        {\n            \"id\": 832718,\n            \"nom\": \"Bonsaï d'intérieur 5 ans, pot déco\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"bonsaïs\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0832000/832718_001.jpg\"\n        },\n        {\n            \"id\": 927584,\n            \"nom\": \"Eugenia uniflora 10/12 ans\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"bonsaïs\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0927000/927584_001.jpg\"\n        },\n        {\n            \"id\": 906247,\n            \"nom\": \"Bonsaï Ficus 25/30 ans + soucoupe\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"bonsaïs\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0906000/906247_002.jpg\"\n        },\n        {\n            \"id\": 828654,\n            \"nom\": \"Forêt Acer palmatum 'Atropurpureum' 8/9 d'âge\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"bonsaïs\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0828000/828654_001.jpg\"\n        },\n        {\n            \"id\": 828653,\n            \"nom\": \"Acer palmatum 'Atropurpureum' 8/9 d'âge\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"bonsaïs\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0828000/828653_001.jpg\"\n        },\n        {\n            \"id\": 827029,\n            \"nom\": \"Mix bonsaï 6/8ans avec soucoupe\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"bonsaïs\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0827000/827029_002.jpg\"\n        },\n        {\n            \"id\": 828003,\n            \"nom\": \"Bonsaï Indonésien 19 ans soucoupe\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"bonsaïs\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0828000/828003_001.jpg\"\n        },\n        {\n            \"id\": 473744,\n            \"nom\": \"Bonsaï Azalée: 7-9 ans étage\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"bonsaïs\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0473000/473744_001.jpg\"\n        },\n        {\n            \"id\": 473743,\n            \"nom\": \"Bonsaï Azalée: 5-6 ans étage\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"bonsaïs\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0473000/473743_001.jpg\"\n        },\n        {\n            \"id\": 473733,\n            \"nom\": \"Bonsaï Buxus:5-6 ans boule\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"bonsaïs\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0473000/473733_001.jpg\"\n        },\n        {\n            \"id\": 473722,\n            \"nom\": \"Bonsaï Myrte:4-5 ans\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"bonsaïs\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0473000/473722_001.jpg\"\n        },\n        {\n            \"id\": 910670,\n            \"nom\": \"Chamaedora (palmier nain) pot D24cm\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes vertes\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0910000/910670_001.jpg\"\n        },\n        {\n            \"id\": 801437,\n            \"nom\": \"Dieffenbachia Maroba - Cache Pot Blanc D.21 - H.80\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes vertes\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0801000/801437_001.jpg\"\n        },\n        {\n            \"id\": 910671,\n            \"nom\": \"Kentia : pot D24cm\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes vertes\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0910000/910671_001.jpg\"\n        },\n        {\n            \"id\": 801454,\n            \"nom\": \"Yucca 3 cannes - 130cm : D.24\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes vertes\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0801000/801454_001.jpg\"\n        },\n        {\n            \"id\": 832886,\n            \"nom\": \"Pachira Aquatica :cache- pot blanc D21cm\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes vertes\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0832000/832886_001.jpg\"\n        },\n        {\n            \"id\": 475397,\n            \"nom\": \"Ficus Benjamina Danielle : H100/110cm, D20cm\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes vertes\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0475000/475397_003.jpg\"\n        },\n        {\n            \"id\": 832885,\n            \"nom\": \"Pachira Aquatica :cache- pot gris D21cm\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes vertes\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0832000/832885_001.jpg\"\n        },\n        {\n            \"id\": 801438,\n            \"nom\": \"Dieffenbachia Maroba - Cache Pot Anthracite : D.21 - H.80\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes vertes\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0801000/801438_001.jpg\"\n        },\n        {\n            \"id\": 956016,\n            \"nom\": \"Tableau végétal stabilisé JI IRUI 140*40\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes vertes\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0956000/956016_001.jpg\"\n        },\n        {\n            \"id\": 910696,\n            \"nom\": \"Monstera Deliciosa pot D30cm\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes vertes\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0910000/910696_001.jpg\"\n        },\n        {\n            \"id\": 910682,\n            \"nom\": \"Philodendron Xanadu pot D27cm\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes vertes\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0910000/910682_001.jpg\"\n        },\n        {\n            \"id\": 832871,\n            \"nom\": \"Ficus binnendijkii 'Alii' cache-pot blanc D21cm\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes vertes\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0832000/832871_001.jpg\"\n        },\n        {\n            \"id\": 801444,\n            \"nom\": \"Beaucarnea Recurvata Cache-pot Anthracite : D.21 - H.60\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes vertes\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0801000/801444_002.jpg\"\n        },\n        {\n            \"id\": 910737,\n            \"nom\": \"Chamaedora (palmier nain) pot déco clair D24cm\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes vertes\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0910000/910737_001.jpg\"\n        },\n        {\n            \"id\": 910680,\n            \"nom\": \"Beaucarnea : pot D27cm\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes vertes\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0910000/910680_001.jpg\"\n        },\n        {\n            \"id\": 801459,\n            \"nom\": \"Dracanea Marginata CP Blanc : D.21-H.105\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes vertes\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0801000/801459_001.jpg\"\n        },\n        {\n            \"id\": 956015,\n            \"nom\": \"Tableau végétal stabilisé HANAKOTOBA XL 140*40 cm\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes vertes\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0956000/956015_001.jpg\"\n        },\n        {\n            \"id\": 1023051,\n            \"nom\": \"Palmier Kentia pot 19 cm - H. 80-90cm\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes vertes\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/1023000/1023051_001.jpg\"\n        },\n        {\n            \"id\": 646556,\n            \"nom\": \"Tableau végétal gamme nature rectangle XL - 60x100cm\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes vertes\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0646000/646556_002.jpg\"\n        },\n        {\n            \"id\": 801461,\n            \"nom\": \"Ficus Benjamina Danielle : D.17-H.60\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes vertes\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0801000/801461_001.jpg\"\n        },\n        {\n            \"id\": 801456,\n            \"nom\": \"Beaucarnea Ramifié : D.23 - H.70\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes vertes\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0801000/801456_001.jpg\"\n        },\n        {\n            \"id\": 801458,\n            \"nom\": \"Dracanea Marginata 3 pieds : D.21-H.105\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes vertes\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0801000/801458_001.jpg\"\n        },\n        {\n            \"id\": 801447,\n            \"nom\": \"Dracanea Lemon Lime CP Anthracite : D.21-H.100\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes vertes\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0801000/801447_001.jpg\"\n        },\n        {\n            \"id\": 801432,\n            \"nom\": \"Monstera Deliciosa - Cache-pot Anthracite : D.21 - H70\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes vertes\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0801000/801432_001.jpg\"\n        },\n        {\n            \"id\": 801436,\n            \"nom\": \"Dieffenbachia Maroba : D.21 - H.80\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes vertes\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0801000/801436_001.jpg\"\n        },\n        {\n            \"id\": 789670,\n            \"nom\": \"Tradescantia Nanouk' : d.12cm\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes vertes\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0789000/789670_001.jpg\"\n        },\n        {\n            \"id\": 832897,\n            \"nom\": \"Dracaena Janet Craig cache-pot gris D21cm\",\n            \"soleil\": \"moyen\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"plantes vertes\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0832000/832897_001.jpg\"\n        },\n        {\n            \"id\": 910741,\n            \"nom\": \"Rhapis : pot déco clair D24cm\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"palmiers d'intérieur\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0910000/910741_001.jpg\"\n        },\n        {\n            \"id\": 801433,\n            \"nom\": \"Areca - H. 110.0 : D.21.0\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"palmiers d'intérieur\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0801000/801433_001.jpg\"\n        },\n        {\n            \"id\": 910724,\n            \"nom\": \"Kentia : cache-pot sable D19cm\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"palmiers d'intérieur\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0910000/910724_001.jpg\"\n        },\n        {\n            \"id\": 832844,\n            \"nom\": \"Kentia : cache-pot blanc D19cm\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"palmiers d'intérieur\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0832000/832844_001.jpg\"\n        },\n        {\n            \"id\": 832842,\n            \"nom\": \"Kentia : pot D19 x H80cm\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"palmiers d'intérieur\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0832000/832842_001.jpg\"\n        },\n        {\n            \"id\": 1023075,\n            \"nom\": \"Palmiers Areca d'intérieur - pot 17 cm - H.60-70 cm - Lot de 2\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"palmiers d'intérieur\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/1023000/1023075_001.jpg\"\n        },\n        {\n            \"id\": 506230,\n            \"nom\": \"Kentia: H.90/100cm, D.17cm,\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"palmiers d'intérieur\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0506000/506230_001.jpg\"\n        },\n        {\n            \"id\": 20899,\n            \"nom\": \"Palmier nain: pot d.17 cm h.40/60cm\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"palmiers d'intérieur\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0020000/20899_009.jpg\"\n        },\n        {\n            \"id\": 801435,\n            \"nom\": \"Areca - Cache-pot Anthracite : D.21.0\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"palmiers d'intérieur\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0801000/801435_001.jpg\"\n        },\n        {\n            \"id\": 788834,\n            \"nom\": \"Livistona : pot déco D19xH65cm. Avec noix.\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"palmiers d'intérieur\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0788000/788834_002.jpg\"\n        },\n        {\n            \"id\": 20893,\n            \"nom\": \"Palmier nain : H.30/40cm pot\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"palmiers d'intérieur\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0020000/20893_007.jpg\"\n        },\n        {\n            \"id\": 832843,\n            \"nom\": \"Kentia : cache-pot gris D19cm\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"palmiers d'intérieur\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0832000/832843_001.jpg\"\n        },\n        {\n            \"id\": 832907,\n            \"nom\": \"Rhapis :cache-pot blanc D21cm\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"palmiers d'intérieur\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0832000/832907_001.jpg\"\n        },\n        {\n            \"id\": 292649,\n            \"nom\": \"Faux dattier : H.100cm pot\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"palmiers d'intérieur\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0292000/292649_005.jpg\"\n        },\n        {\n            \"id\": 801434,\n            \"nom\": \"Areca - Cache-pot Blanc : D.21.0\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"palmiers d'intérieur\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0801000/801434_001.jpg\"\n        },\n        {\n            \"id\": 910742,\n            \"nom\": \"Rhapis : pot déco foncé D24cm\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"palmiers d'intérieur\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0910000/910742_001.jpg\"\n        },\n        {\n            \"id\": 910738,\n            \"nom\": \"Chamaedora (palmier nain) pot déco foncé D24cm\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"palmiers d'intérieur\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0910000/910738_001.jpg\"\n        },\n        {\n            \"id\": 910673,\n            \"nom\": \"Rhapis : pot D24cm\",\n            \"soleil\": \"beaucoup\",\n            \"arrosage\": \"2\",\n            \"categorie\": \"palmiers d'intérieur\",\n            \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0910000/910673_001.jpg\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Get by ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/api/plants/77390"
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/plants/77390"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "262"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"106-fXUUSTRx2P7JuRbXPosj/RoXLd4\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 28 May 2024 13:22:15 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"OK\",\n    \"data\": {\n        \"id\": 77390,\n        \"nom\": \"Anthurium: Pot 17cm petit modèle - Coloris variables\",\n        \"soleil\": \"moyen\",\n        \"arrosage\": \"2\",\n        \"categorie\": \"plantes fleuries\",\n        \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0077000/77390_010.jpg\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 1,\r\n  \"nom\": \"Ficus\",\r\n  \"soleil\": \"Peu\",\r\n  \"arrosage\": \"3\",\r\n  \"categorie\": \"Plante d'intérieur\",\r\n  \"image\": \"url_de_l_image\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/api/plants"
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 1,\r\n  \"nom\": \"Ficus\",\r\n  \"soleil\": \"Peu\",\r\n  \"arrosage\": \"3\",\r\n  \"categorie\": \"Plante d'intérieur\",\r\n  \"image\": \"url_de_l_image\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/plants"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "134"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"86-pQPRb/INX3bRvH9geMMxpPc/JuA\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 28 May 2024 13:29:18 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"OK\",\n    \"data\": {\n        \"id\": 3,\n        \"nom\": \"Ficus\",\n        \"soleil\": \"Peu\",\n        \"arrosage\": \"3\",\n        \"categorie\": \"Plante d'intérieur\",\n        \"image\": \"url_de_l_image\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": 910762,\r\n        \"nom\": \"Anthurium elipticum 'Jungle Bush' pot déco foncé D24cm\",\r\n        \"soleil\": \"moyen\",\r\n        \"arrosage\": \"2\",\r\n        \"categorie\": \"plantes fleuries\",\r\n        \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0910000/910762_001.jpg\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/api/plants/910762"
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"id\": 910762,\r\n        \"nom\": \"Anthurium elipticum 'Jungle Bush' pot déco foncé D24cm\",\r\n        \"soleil\": \"moyen\",\r\n        \"arrosage\": \"2\",\r\n        \"categorie\": \"plantes fleuries\",\r\n        \"image\": \"https://images.truffaut.com/media/catalog/product/cdn:///Articles/jpg/0910000/910762_001.jpg\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/plants/910762"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "65"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"41-3KT+4legvfWi3G+z8JEi1Eke2Vg\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 28 May 2024 12:40:41 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"OK\",\n    \"data\": {\n        \"generatedMaps\": [],\n        \"raw\": [],\n        \"affected\": 0\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:3000/api/plants/1"
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:3000/api/plants/1"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "46"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"2e-EcQNxhrJTP6vZnOKMtbA2/2U4rw\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 28 May 2024 12:40:44 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"OK\",\n    \"data\": {\n        \"raw\": [],\n        \"affected\": 0\n    }\n}"
+				}
+			]
+		}
+	]
+}
